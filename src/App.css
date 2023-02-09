@@ -3,21 +3,26 @@
     padding: 0;
    }
 
+
+
 #App {
     height: 100vh;
     width: auto;
     background-image: url("/public/hellozetabg.svg");
     background-size: cover;
-    overflow: scroll;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 .title {
+    margin-top: 4vh;
     color: black;
     font-family: "Montserrat";
     font-weight: 900;
 }
 .subtitle {
-    color: black;
+    color: rgb(82, 82, 82);
     font-family: "Montserrat";
+    margin-bottom: 4vh;
 }
 .heading {
     color: black;
@@ -35,3 +40,37 @@
     height: 80vh;
     width: auto;
 }
+
+#form {
+    margin-bottom: 4vh;
+}
+
+#input {
+    background: rgba(0, 0, 0, 0);
+    width: max(20vw, 220px);
+    border-radius: 5px;
+    font-size: small;
+    border-color: black;
+    padding: 5px;
+    margin-right: 20px;
+    font-family: 'Montserrat';
+  }
+#waitlistbutton {
+    background-color: #4283F1;
+    font-family: 'Montserrat';
+    font-weight: 900;
+}
+    #waitlistbutton:hover {
+        background-color: #2947A1;
+}
+
+#returnicon {
+    color: grey;
+    opacity: 100%;
+}
+
+#col {
+    display: flex;
+    justify-content: center;
+}
+
