@@ -21,7 +21,7 @@ function App() {
 
             <Navbar>
                 <Container>
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand href="#home" id="brand">
                         <Image
                         alt="Zeta Logo"
                         src="/ZetaLogo.svg"
