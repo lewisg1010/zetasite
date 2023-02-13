@@ -29,14 +29,14 @@ function App() {
                         height="30"
                         className="d-inline-block align-top"
                         />{' '}
-                        Zeta
+                        RealAssist
                     </Navbar.Brand>
                 </Container>
             </Navbar>
             <Row xs={1} sm={1} md={1} lg={2} xl={2} className="g-5 align-items-center">
                 <Col sm={12} md={12} lg={8} xl={8}>
                     <h1 className="title">The AI-powered virtual assistant for real estate agents</h1>
-                    <h4 className="subtitle">Say goodbye to cluttered inboxes and missed calls. Zeta handles it all, so you can focus on what really matters: closing deals.</h4>
+                    <h4 className="subtitle">Say goodbye to cluttered inboxes and missed calls. RealAssist handles it all, so you can focus on what really matters: closing deals.</h4>
                     
                     <h4>Get Early Access:</h4>
                     <form action="https://getform.io/f/c4348f8a-671c-4374-b6be-56d265081be2" method="POST" acceptCharset="UTF-8" id="form">
@@ -57,7 +57,7 @@ function App() {
                             <div id="valueprop">
                             <AssistantIcon />
                             <p className="heading">Personalized, 24/7 Assistant</p>
-                            <p className="body">Zeta answers calls, texts, emails, and chats across all your marketing channels, and automatically follows up with prospects.</p>
+                            <p className="body">RealAssist answers calls, texts, emails, and chats across all your marketing channels, and automatically follows up with prospects.</p>
                             </div>
                         </Col>
                     
@@ -65,13 +65,13 @@ function App() {
                             <div id="valueprop">
                             <ScheduleIcon />
                             <p className="heading">Schedule Showings on Autopilot</p>
-                            <p className="body">Let Zeta schedule your showings, so you can focus your time on what matters most: closing deals.</p>
+                            <p className="body">Let RealAssist schedule your showings, so you can focus your time on what matters most: closing deals.</p>
                             </div>
 
                             <div id="valueprop">
                             <ShareIcon />
                             <p className="heading">Uses Your Property Database</p>
-                            <p className="body">Since Zeta connects directly to your YGL, it can quickly send clients property listings, and answer property-specific questions.</p>
+                            <p className="body">Since RealAssist connects directly to your YGL, it can quickly send clients property listings, and answer property-specific questions.</p>
                             </div>
                         </Col>
                     </Row>
